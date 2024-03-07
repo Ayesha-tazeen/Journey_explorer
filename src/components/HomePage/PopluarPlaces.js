@@ -6,7 +6,7 @@ function PopularPlaces() {
   
     return (
         <>
-            <h1 className='text-head font-serif mb-3 text-4xl mt-3 text-center'>Popular Destinations</h1>
+            <h1 className='text-head font-serif mb-3  md:text-4xl text-xl mt-3 text-center'>Popular Destinations</h1>
            {places.map(place => (
                 <PlacesCard
                 key={place.id}
